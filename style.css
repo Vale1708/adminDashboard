@@ -190,3 +190,28 @@ header{
     grid-row: 2;
     font-size: 1.7rem;
 }
+
+.header-buttons{
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+    align-items: center;
+    gap: 24px;
+    justify-self: end;
+}
+
+.header-buttons > button{
+    width: 90px;
+    font-size: 0.9rem;
+    border: none;
+    background-color: #4472CA;
+    color: white;
+    font-family: inherit;
+    font-weight: 600;
+    padding: 8px 0;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(219, 56%, 40%);
+}
