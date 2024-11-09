@@ -156,3 +156,37 @@ header{
     color: white;
     font-weight: 400;
 }
+
+.greetings-container{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-template-rows: repeat(2, max-content);
+    align-items: center;
+}
+
+.greetings-account-img{
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #21897E;
+    margin-right: 16px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
+.greetings{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.greetings-account-name{
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 1.7rem;
+}
